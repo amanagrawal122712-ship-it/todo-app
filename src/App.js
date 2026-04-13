@@ -4,7 +4,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [text, setText] = useState("");
 
-  const API = "http://localhost:8000/tasks";
+  const API = "https://todo-app-vagk.onrender.com/tasks";
 
   // Fetch tasks
   const getTasks = () => {
